@@ -1,0 +1,384 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	body{
+		
+	}
+.problems{
+	padding-left:450px;
+}
+.left-top-wr{
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+.right-top-wr{
+	position: relative;
+}
+.fixing{
+	position: absolute;
+	font-size:22px;
+	left:0;
+}
+.fixingbot{
+	position: absolute;
+	font-size:22px;
+	left:0;
+	top:30px;
+}
+
+.iconText{
+	width:70%;
+	
+}
+.team3{
+	height:160px;
+}
+
+.phones{
+	font-size:20px;
+	margin-top:5px;
+	position: absolute;
+	right:40px;
+	}
+.num1{
+	padding-bottom:5px;
+}
+	#machine{
+	width:200px;
+	height:240px;
+	background-size:150%;
+	position: relative;
+	left:-30px;
+	top:100px;
+}
+#machine .good{
+
+visibility:hidden;
+background-size:70%;
+background-repeat:no-repeat;
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:80px;
+	top:120px;	
+	
+}
+.price-list tbody td:first-child {
+	color:#000;
+	font-weight:bold;
+	text-align:left;
+	text-indent:5px;
+}
+.questionandanswer{
+	text-align:center;
+	font-size:26px;
+	margin:15px;
+}
+
+.comments{
+	margin:auto;
+	width:90%;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	body{
+		
+	}
+	.wrapper{
+		position: relative;
+		height:170px;
+	}
+
+.left-top-wr{
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	height:200px;
+	
+	bottom:-5px;
+
+}	
+	
+.right-top-wr{
+height:200px;
+	position:absolute;
+	
+	
+}
+.fixing{
+	position:absolute;
+	left:20px;
+	top:20px;
+	font-size:18px;	
+}
+.fixingbot{
+	position:absolute;
+	left:20px;
+	top:45px;
+	font-size:18px;	
+}	
+.iconsText{
+	position:absolute;
+	
+	
+}
+
+    #imgtotop{
+		top:10px;	
+	width: 120px;
+    height: 120px;
+    position: absolute;	
+	}
+	
+.iconsplus{
+			position: absolute;
+	left:75px;
+	top:75px;
+	
+}
+.iconsplus li{
+	padding-bottom:0px;
+	
+}
+.phones{
+	font-size:15px;
+	
+	
+	position: absolute;
+	
+}	
+.iconsText{
+	font-size:16px;	
+}
+.icons{
+	position:absolute;
+	left:40px;
+	
+	
+}
+.icons img{
+		height:20px;
+	width:20px;
+	margin:0px;
+	padding-bottom:0;
+}
+.image-wash{
+	width:80px;
+	position:absolute;
+	top:-100px;
+	right:60px;
+}
+	#machine{
+	width:100px;
+	height:140px;
+	background-size:150%;
+	position: relative;
+	left:10px;
+	top:130px;
+}
+#machine .good{
+
+visibility:hidden;
+background-size:50%;
+background-repeat:no-repeat;
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:50px;
+	top:60px;	
+	
+}
+.problems{
+	padding-left:0px;
+}
+#form{
+	margin: auto;
+	width:100%;
+	
+}
+.questionandanswer{
+	text-align:center;
+	font-size:26px;
+	margin:15px;
+}
+
+.comments{
+	margin:auto;
+	width:90%;
+}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	body{
+		
+	}
+.left-top-wr{
+width:100%;
+
+
+
+}	
+
+.fixing{
+	position:absolute;
+	left:10px;
+	font-size:20px;
+	
+}	
+.fixingbot{
+	position:absolute;
+	left:10px;
+	font-size:20px;
+	
+}
+.right-top-wr{
+	position: relative;
+	
+	
+	
+}
+
+#imgtotop{
+		top:5px;
+		left:-30px;
+	width: 120px;
+    height: 125px;
+    position: absolute;	
+	
+	}	
+.mym{
+	position: absolute;
+	top:27px;
+	left:460px;
+	font-size:24px;
+}
+
+.phones{
+	font-size:15px;
+	
+	right:40px;
+	position: absolute;
+	
+}
+.icons{
+	
+	position: absolute;
+	left:40px;
+}
+.icons img{
+		height:20px;
+	width:20px;
+	margin:0px;
+	padding-bottom:0;
+	
+}	
+.iconsplus li{
+	padding-bottom:2px;
+	
+}
+.iconsplus{
+	position: absolute;
+	left:85px;
+	top:70px;
+}
+.iconsText{
+	font-size:14px;	
+	
+}	
+.image-wash{
+	
+	position:absolute;
+}
+.problems{
+	padding-left:0px;
+}
+#form{
+	margin: auto;
+	width:100%;
+	
+}
+.questionandanswer{
+	text-align:center;
+	font-size:26px;
+	margin:15px;
+}
+
+.comments{
+	margin:auto;
+	width:90%;
+}
+
+#sidebarMenuWrong{
+	display:block;
+	width:100%;
+	
+	font-size:24px;
+}
+
+.RBSticky {{
+	
+}
+}			
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+	
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+body{
+		overflow-x:hidden;
+		
+	}
+	.left-top-wr{
+		width:100%;
+	}
+	.right-top-wr{
+	position: relative;
+	width:100%;
+	
+}
+.questionandanswer{
+	text-align:center;
+	font-size:26px;
+	margin:15px;
+}
+
+.comments{
+	margin:auto;
+	width:90%;
+}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

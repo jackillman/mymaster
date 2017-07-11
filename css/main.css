@@ -1,0 +1,808 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width:768px;
+    
+}
+
+
+a{
+	color:#333;
+}
+.VK{
+	color:#337ab7;
+}
+h2{
+	text-align:center;
+}
+                             /* шапка */
+.wrapper{
+	
+	height:240px;
+}
+.left-top-wr{
+	background: url(../images/str.png) no-repeat;
+	height:240px;
+	position:relative;
+}
+
+
+.right-top-wr{
+	
+	width:100%;
+	
+	-webkit-background-size: 100%;
+		background-size: 100%;
+	height:240px;
+	position:relative;
+	
+}
+.stir{
+	
+	background-color: rgba(0, 120, 201, 0.1);
+	
+	
+}
+
+.fixing{
+	position:absolute;
+	text-align:middle;
+	top:5px;
+	font-size:28px;
+}
+.fixingbot{
+	position:absolute;
+	text-align:middle;
+	top:30px;
+	font-size:28px;
+}
+
+.phones{
+	position:absolute;
+	bottom:20px;
+	right:40px;
+	font-size:28px;
+	
+}
+.mains{
+	padding-left:10px;
+	padding-bottom:15px;
+}
+.icons{
+		position: absolute;
+	left:80px;
+	top:70px;
+	
+}
+.icons img{
+		height:30px;
+	width:30px;
+	margin:1px;
+	
+}
+.icons_and_Text{
+	position:absolute;
+	
+}
+.iconsplus{
+			position: absolute;
+	left:125px;
+	top:75px;
+	
+}
+.iconsplus li{
+	padding-bottom:10px;
+	
+}
+.iconsText{
+	position: absolute;
+	top:75px;	
+}
+
+#imgtotop{
+	width:150px;
+	height:180px;
+	position:absolute;
+	bottom:-180px;
+	left:-30px;
+}
+
+ h1{
+	color:#333;
+}
+	
+	
+
+
+.mains{
+	font-size:36px;
+	display: inline;
+}
+
+.ico_qual,
+.ico_sale,
+.ico_fast{
+	
+	height:40px;
+	width:40px;
+	margin:0 5px;
+	padding-top:5px;
+	
+}
+
+.call{
+	float: right;
+	padding-right:50px;
+	font-size:20px;
+	
+	
+}
+
+
+	
+                                      /* Меню  */
+nav {
+	width:100%;
+	height:52px;
+	background:#5BA2D6 0 0 no-repeat;
+	overflow:visible;
+	z-index:1;
+	border:transparent;
+	border-radius:5px;
+}
+.menu li {
+	float:left;
+	position:relative;
+	
+}
+
+.menu li a {
+	display:inline-block;
+	font-size:18px;
+	line-height:25px;
+	padding:12px 28px 12px 29px;
+	color:#333;
+	text-transform:none;
+}
+
+.menu li a.active, .menu > li > a:hover {
+	color:#fff;
+}
+
+.menu > li:first-child > a.active, .menu > li:first-child > a:hover {
+	background-position:center 15px;
+}
+.mnu{
+	position: relative;
+	margin:0px;
+	top:-17px;
+	width:100%;
+}
+.mnu ul,
+.indent-bot ul{
+	list-style:none;
+}
+
+                         /* Первый контент (менюшка - главная ) */
+
+						 
+
+.maintext{
+	color:red;
+}
+.cbk-phote-text{
+	color:white;
+}
+.team1 {
+	float: left;
+	width:150px;
+	height:130px;
+}
+.team2 {
+	float: right;
+	width:150px;
+}
+.team3 {
+	float: left;
+	width:150px;
+}
+.glavnaya p{
+	padding:10px;
+}
+.glavnaya{
+	border:solid 1px #eee;
+	box-shadow:3px 3px 5px #333;
+}
+.img-indent {
+	float:left;
+	margin:0 19px 0px 0;
+}
+                              /* Время работы */
+.wrapper_time{
+	background-color: #B7E4FF;
+	border-radius:5px;
+	padding:5px;
+}
+                        /* с под временем работі */
+						
+			
+.image-wash {
+	margin-left:20px;
+}			
+.image-wash img{
+	width:100%;
+	transform:scale(1.1, 1.1);
+}
+	
+#machine{
+	width:240px;
+	height:280px;
+	background-size:150%;
+	position: relative;
+	left:-30px;
+	top:100px;
+}
+
+#machine .close{
+	background-image: url(../images/log11.png);
+	background-repeat:no-repeat;
+	visibility:hidden;
+	background-size:70%;
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	animation: move 1s ease-in-out infinite;
+	
+	-webkit-animation: move 1s ease-in-out infinite;
+	-o-animation: move 1s ease-in-out infinite;
+	animation:move 1s ease-in-out infinite;
+	
+	-webkit-animation-direction: alternate;
+	-moz-animation-direction: alternate;
+	-o-animation-direction: alternate;
+	animation-direction: alternate;
+}
+
+@keyframes move{
+	from{
+		-webkit-transform: rotate(1.5deg);
+		-moz-transform: rotate(1.5deg);
+		-ms-transform: rotate(1.5deg);
+		-o-transform: rotate(1.5deg);
+		transform: rotate(1.5deg);
+		
+	}
+	to{
+		-webkit-transform: rotate(-1.5deg);
+		-moz-transform: rotate(-1.5deg);
+		-ms-transform: rotate(-1.5deg);
+		-o-transform: rotate(-1.5deg);
+		transform: rotate(-1.5deg);
+	}
+}
+
+
+
+
+#machine .open{
+background-image: url(../images/log22.png);
+visibility:hidden;
+background-size:70%;
+background-repeat:no-repeat;
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;	
+	
+}
+
+
+#machine.idle .close{
+	visibility:visible;
+}
+
+#machine.open .open{
+	visibility:visible;
+}
+
+#machine .good{
+background-image: url(../images/goods.png);
+visibility:hidden;
+background-size:70%;
+background-repeat:no-repeat;
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:100px;
+	top:140px;	
+	
+}
+#machine.open .good{
+	visibility:visible;
+}	
+						
+
+                                /* боковой коллбэк */
+.master_forma {
+    position: fixed;
+    right: 0;
+    top: 30%;
+	}
+	
+	h1{
+		text-align:center;
+	}
+                                 	/* о нас */
+	.extra-wrap {
+		
+		padding-bottom:20px;
+		
+	}
+	
+	
+	
+	.extra-wrap p {
+		color:#333;
+		padding-left:20px;
+	}
+	.callback_img{
+		width:100px;
+	}
+	.modal_form{
+		width:70%;
+		margin:40px auto;
+	}
+	.input{
+		width:100%;
+		margin:10px 0;
+		border:1px solid #ccc;
+		padding:10px;
+		text-indent:20px;
+		color:#555;
+		border-radius:5px;
+	}
+	.input_sub{
+		border:1px solid #770000;
+		background:#abc3f5;
+		color:#fff;
+		text-transform:uppercase;
+	}
+	                                  /* секция 3  */
+	
+	
+	.priceANDcallback{
+		margin:40px auto;
+	}
+	.problems-main{
+		background:url(../images/roomwash.jpg) center no-repeat;
+		-webkit-background-size: 100%;
+		background-size: 100%;
+		
+	}
+	
+	
+	.problems-list{
+		padding-left:50px;
+	}
+	.problems{
+		background: rgba(40, 75, 88, 0.45);
+		padding-left:550px;
+		text-shadow:1px 1px 1px #102357;
+		color:#fff;
+		font-size:18px;
+		padding-top:20px;
+		padding-bottom:20px;
+		
+	}
+	                             /* секция прайса  */
+		.price-list{
+		position:relative;
+		margin:auto;
+		
+	}
+	.price__list{
+		position: relative;
+		margin:auto;
+	}
+	
+	
+	.price-list td {
+	border:3px solid #333;
+	line-height:39px;
+}
+.price-list thead td {
+	width:150px;
+	text-align:center;
+	color:#000;
+	
+}
+.price-list td:first-child {
+	width:400px;
+}
+.price-list tbody td:first-child {
+	color:#000;
+	
+	text-align:left;
+	text-indent:19px;
+}
+.price-list tbody td {
+	text-align:center;
+}
+.indent-left {
+	
+	padding-left:30px;
+}
+.indent-left p{
+	padding-top:5px;
+}
+
+ul{
+list-style:none;
+}
+/* секция заказа ремонта  */
+#form {
+  max-width: 400px;
+  padding: 2%;
+  border-radius: 3px;
+  background: #eee;
+}
+#form [required] {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 2px 0 2% 0;
+  padding: 2%;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent; 
+}
+.subm{
+	 padding: 2%;
+	border-radius: 3px;
+	background-color:#5BA2D6;
+	 box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+	 color: #fff;
+}
+.subm:hover{
+background: #00BCD4;
+}
+.subm:focus{
+box-shadow: 0 1px 1px #fff, inset 0 2px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+
+}
+.subm:active{
+	background-color:#5BA2D6;
+}
+
+  /* Кнопка вверх  */
+
+  .to-top1{
+	   position: fixed;
+    right: 3%;
+    bottom: 5%;
+	   z-index:10;
+	   border:none;  
+  }
+  
+  #top{
+	  
+	  background: url(../images/topbutton.png) no-repeat;
+	height:60px;
+	width:60px;
+	   border-radius:50px;
+border:transparent;	   
+  }
+ 
+  
+  
+
+
+                      /* FOOTER  */
+footer{
+	margin-top:20px;
+	width: 100%;
+	height:100%;
+position: relative;
+	background:#5BA2D6;
+}
+.towns{
+	color:#fff;
+	padding: 5px 15px 40px;
+}
+.our-contacts{
+	text-align:center;
+	font-size:26px;
+	
+	
+	color:#fff;
+}
+.fa{
+	font-size:26px;
+	
+}
+.fa-vk:hover {
+	color:#fff;
+	font-size:32px;
+
+}
+
+.questionandanswer{
+	text-align:center;
+	font-size:26px;
+	margin:15px;
+}
+
+.comments{
+	margin:auto;
+	width:90%;
+}
+                                      /* Страничка с ошибками (таблицы)  */
+									    /* (таблицы)  */
+	.wrongTableArdo,								
+		.wrongTableAriston, 
+			.wrongTableEluxZanussi1000,
+				.wrongTableEluxZanussi2000,
+					.wrongTableLG,
+						.wrongTableCandy,
+							.wrongTableSamsung,
+								.wrongTableGorenje,
+									.wrongTableBosch,
+										.wrongTableWhirlpool,
+											.wrongTableBeko,
+												.wrongTableMiele,
+													.wrongTableKaiser{
+		position:relative;
+		margin:auto;
+		width:100%;
+	}
+	
+.wrongTableArdo,
+	.wrongTableAriston,
+		.wrongTableEluxZanussi1000,
+			.wrongTableEluxZanussi2000,
+			     .wrongTableLG,
+				     .wrongTableCandy,
+						.wrongTableSamsung
+							.wrongTableGorenje,
+								.wrongTableBosch,
+									.wrongTableWhirlpool,
+										.wrongTableBeko,
+											.wrongTableMiele,
+												.wrongTableKaiser{
+		position: relative;
+		margin:auto;
+	}
+	
+.wrongTableArdo td,
+	.wrongTableAriston td, 
+		.wrongTableEluxZanussi1000 td,
+			.wrongTableEluxZanussi2000 td,
+				.wrongTableLG td,
+					.wrongTableCandy td,
+						.wrongTableSamsung td,
+							.wrongTableGorenje td,
+								.wrongTableBosch td,
+									.wrongTableWhirlpool td,
+										.wrongTableBeko td,
+											.wrongTableMiele td,
+												.wrongTableKaiser td
+											{
+	border:3px solid #333;
+	line-height:24px;
+}
+
+.wrongTableArdo thead td,
+	.wrongTableAriston thead td,
+		.wrongTableEluxZanussi1000 thead td, 
+			.wrongTableEluxZanussi2000 thead td,
+				.wrongTableLG thead td,
+					.wrongTableCandy thead td,
+						.wrongTableSamsung thead td,
+							.wrongTableGorenje thead td,
+								.wrongTableBosch thead td,
+									.wrongTableWhirlpool thead td,
+										.wrongTableBeko thead td,
+											.wrongTableMiele thead td,
+												.wrongTableKaiser thead td{
+	width:10%;
+	text-align:center;
+	color:#000;
+	font-weight:550;
+	
+}
+	.wrongTableArdo tbody td:first-child,
+		.wrongTableAriston tbody td:first-child, 
+			.wrongTableEluxZanussi1000 tbody td:first-child,
+				.wrongTableEluxZanussi2000 tbody td:first-child,
+					.wrongTableLG tbody td:first-child,
+						.wrongTableCandy tbody td:first-child,
+							.wrongTableSamsung tbody td:first-child,
+								.wrongTableGorenje tbody td:first-child,
+									.wrongTableBosch tbody td:first-child,
+										.wrongTableWhirlpool tbody td:first-child,
+											.wrongTableBeko tbody td:first-child,
+												.wrongTableMiele tbody td:first-child,
+													.wrongTableKaiser tbody td:first-child
+ {
+	color:#55f;
+	text-align:center;
+}
+	.wrongTableArdo tbody td:nth-child(2n),
+	.wrongTableArdo tbody td:last-child,
+		.wrongTableAriston tbody td:nth-child(2n),
+		.wrongTableAriston tbody td:last-child,
+		   .wrongTableEluxZanussi1000 tbody td:nth-child(2n),
+		   .wrongTableEluxZanussi1000 tbody td:last-child,
+				.wrongTableEluxZanussi2000 tbody td:nth-child(2n),
+				.wrongTableEluxZanussi2000 tbody td:last-child,
+					.wrongTableLG tbody td:nth-child(2n),
+					.wrongTableLG tbody td:last-child,
+						.wrongTableCandy tbody td:nth-child(2n),
+						.wrongTableCandy tbody td:last-child,
+							.wrongTableSamsung tbody td:nth-child(2n),
+							.wrongTableSamsung tbody td:last-child,
+								.wrongTableGorenje tbody td:nth-child(2n),
+								.wrongTableGorenje tbody td:last-child,
+									.wrongTableBosch tbody td:nth-child(2n),
+									.wrongTableBosch tbody td:last-child,
+										.wrongTableWhirlpool tbody td:nth-child(2n),
+										.wrongTableWhirlpool tbody td:last-child,
+											.wrongTableBeko tbody td:nth-child(2n),
+											.wrongTableBeko tbody td:last-child,
+												.wrongTableMiele tbody td:nth-child(2n),
+												.wrongTableMiele tbody td:last-child,
+													.wrongTableKaiser tbody td:nth-child(2n),
+													.wrongTableKaiser tbody td:last-child
+   {
+	   
+	text-align: left;
+	vertical-align:top;
+    line-height: 24px;
+	
+	padding-left:5px;
+}
+tbody td:nth-child(2n){
+	width:45%;
+}
+tbody td:last-child{
+	width:45%;
+}
+.washSticker{
+	color:#5580FF;
+	font-family:"RobotoMedium";
+	text-shadow:1px 1px 1px #24829A;
+}
+
+                                         /* боковой сайдбар меню  */
+#sidebarMenuWrong{
+	
+	font-size:18px;
+}
+#sidebarMenuWrong ul{
+	padding-left:0px;
+	margin:0;
+	cursor:pointer;
+}
+
+#sidebarMenuWrong ul>li {
+	background: rgba(155,233,233, 0.1);
+	transition:all .5s;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	
+}
+
+#sidebarMenuWrong ul>li:hover {
+	background: rgba(91,162,214, 1);
+	
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+	color:#fff;
+	
+	
+}
+											/* headhesive и бокое меню кодов ошибок */
+
+.headhesive{
+	background: #5BA2D6;
+	position: fixed;
+	transition:.5s;
+	width:100%;
+	transform:translateY(-200%);
+	-webkit-transform:translateY(-200%);
+	-moz-transform:translateY(-200%);
+	-ms-transform:translateY(-200%);
+	-o-transform:translateY(-200%);
+}
+
+.headhesive--stick{
+	transform:translateY(-20%);
+	-webkit-transform:translateY(-20%);
+	-moz-transform:translateY(-20%);
+	-ms-transform:translateY(-20%);
+	-o-transform:translateY(-20%);
+	color:#fff;
+	margin-top:0;
+	z-index:1000;
+}
+.RBSticky {
+    position:fixed;
+    height:auto !important;
+    top:0;
+    z-index:100;
+	top:50px;
+    border-top:0;
+    margin-top:0;
+}
+
+#fixmenu{
+    width: 1122px;
+    height:30px;
+    margin-left:-48px;
+    padding:5px 48px;
+    position:fixed;
+    top:0;
+    background:#7eb7d9;
+    display:none;
+}
+     
+.menu-fixed{
+    width: 260px;
+    float: right;
+    text-align: right;
+    padding:4px 0 5px 0;
+    list-style-type:none;
+}
+ 
+.menu-fixed li{ display:inline; }
+ 
+.menu-fixed a{
+    font-size:0.9em;
+    color:#fff;
+    text-shadow:1px 1px #5E8BC5;
+    padding:0 0 0 10px;
+}
+
+	/* flower*/
+
+	.bg{
+		background:-moz-linear-gradient( to left top, #5580FF, #FF006B);
+		width:100%;
+		height:1000px;
+	}
+	
+	
+	
+	

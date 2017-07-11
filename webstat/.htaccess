@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/mymaster.kiev.ua/webstat"
+AuthUserFile /var/www/chmymas4831/data/etc/3435562.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
